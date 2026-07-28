@@ -1,3 +1,15 @@
+# Lab 09 - Student API (API #3)
+
+### ป้อนข้อมูลนักศึกษา
+
+รหัส นศ.: 680610654
+
+ชื่อ-สกุล : กิตติพัฒน์ นามจักร์
+
+Vercel URL : https://lab08-680610654.vercel.app/
+
+---
+
 # Lecture 09 - RESTful API (Part 3)
 
 ### Content
