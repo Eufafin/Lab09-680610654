@@ -26,9 +26,21 @@ app.use(invalidJsonMiddleware);
 
 // Endpoints
 app.get("/", (req: Request, res: Response) => {
-  res.send("Lecture09 API services");
+  res.send("Lab09 API services");
 });
-
+app.get("/api/me", (req: Request, res: Response) => {
+  res.status(200).json({
+    success: true,
+    message: "Student Information",
+    data: {
+      studentId: "680610654",
+      firstName: "Kittipat",
+      lastName: "Namjak",
+      program: "CPE",
+      section: "001",
+    },
+  });
+});
 
 app.use("/api/v2/students", studentRouter_v2);
 app.use("/api/v3/students", studentRouter_v3);
